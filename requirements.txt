@@ -1,0 +1,17 @@
+# Core analytical pipeline (Python 3.10+; tested on 3.10 / 3.11)
+numpy==2.5.4
+pandas==2.2.3
+scipy==1.17.1
+scikit-learn==1.9.1
+xgboost==3.4.1
+statsmodels==0.15.0
+joblib==1.6.0
+shap==0.54.1
+matplotlib==3.11.0
+openpyxl==3.1.5
+
+# Optional: only needed for tools/export_vs_ml_wide_to_excel.py (direct PostgreSQL export)
+psycopg2-binary>=2.9
+
+# Optional: only needed for tools/build_revised_manuscript.py and build_supplementary.py
+python-docx==1.2.0
